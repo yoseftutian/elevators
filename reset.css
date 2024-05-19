@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+
+  }
+  
+  body {
+    background: #efefef;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gap-20 {
+    gap: 20px;
+  }
